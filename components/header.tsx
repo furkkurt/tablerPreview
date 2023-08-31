@@ -1,12 +1,10 @@
 import { Squash as Hamburger } from 'hamburger-react'
 import { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faSearch, faBox, faCheckSquare, faStar, faBoxes, faGhost, faEnvelopeOpen, faLifeRing } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
 	const [isOpen, setIsOpen] = useState(false)
 	return (
-		<div className={'bg-white py-4 border-2 mx-auto'}>
+		<div className={'bg-white pb-2 px-20 border-2 mx-auto'}>
 			<div className={'xl:w-4/5 mx-auto'}>
 				<div className={'mx-2 mt-4 flex justify-between'}>
 					<div className={'md:hidden'}>
@@ -34,6 +32,7 @@ export default function Header() {
 					</div>
 					<img src={'me.jpg'} className={'h-8 rounded block md:hidden'} />
 				</div>
+				<hr className={'w-screen absolute left-0'} />
 				<div className={'hidden md:flex mx-6'}>
 					<div className={'flex w-full mt-4 gap-4'}>
 						<button className={'flex space-x-2 pt-1'}>

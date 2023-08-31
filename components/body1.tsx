@@ -2,12 +2,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown, faArrowTrendUp } from '@fortawesome/free-solid-svg-icons'
 export default function Body1() {
 	return (
-		<div className={'p-4 flex justify-between grid gap-4 grid-cols-2 lg:flex'}>
-			<div className={'px-4 py-6 border-2 rounded-lg bg-white'}>
+		<div className={'py-2 px-8 flex justify-between grid gap-4 grid-cols-2 lg:flex'}>
+			<div className={'px-4 py-6 border-2 rounded-lg bg-white w-full'}>
 				<div className={'flex space-x-24'}>
 					<div>
 						<p className={'text-xs font-inter text-slate-500'}>SALES</p>
-						<p className={'font-inter text-2xl'}>75%</p>
+						<p className={'font-inter text-2xl font-bold'}>75%</p>
 					</div>
 					<div className={'flex space-x-2'}>
 						<p className={'text-sm font-inter pt-1 text-slate-500 ml-auto'}>Last 7 days</p>
@@ -27,11 +27,11 @@ export default function Body1() {
 					<div className={'h-1 w-3/4 bg-darkBlue rounded-xl'} />
 				</div>
 			</div>
-			<div className={'px-4 py-6 border-2 rounded-lg bg-white'}>
+			<div className={'px-4 py-6 border-2 rounded-lg bg-white w-full'}>
 				<div className={'flex space-x-24'}>
 					<div>
 						<p className={'text-xs font-inter text-slate-500'}>SALES</p>
-						<p className={'font-inter text-2xl'}>75%</p>
+						<p className={'font-inter text-2xl font-bold'}>75%</p>
 					</div>
 					<div className={'flex space-x-2'}>
 						<p className={'text-sm font-inter text-slate-500 ml-auto'}>Last 7 days</p>
@@ -49,11 +49,11 @@ export default function Body1() {
 					<div className={'h-1 w-3/4 bg-darkBlue rounded-xl'} />
 				</div>
 			</div>
-			<div className={'px-4 py-6 border-2 rounded-lg bg-white'}>
+			<div className={'px-4 py-6 border-2 rounded-lg bg-white w-full'}>
 				<div className={'flex space-x-24'}>
 					<div>
 						<p className={'text-xs font-inter text-slate-500'}>SALES</p>
-						<p className={'font-inter text-2xl'}>75%</p>
+						<p className={'font-inter text-2xl font-bold'}>75%</p>
 					</div>
 					<div className={'flex space-x-2'}>
 						<p className={'text-sm font-inter text-slate-500 ml-auto'}>Last 7 days</p>
@@ -71,11 +71,11 @@ export default function Body1() {
 					<div className={'h-1 w-3/4 bg-darkBlue rounded-xl'} />
 				</div>
 			</div>
-			<div className={'px-4 py-6 border-2 rounded-lg bg-white'}>
+			<div className={'px-4 py-6 border-2 rounded-lg bg-white w-full'}>
 				<div className={'flex space-x-24'}>
 					<div>
 						<p className={'text-xs font-inter text-slate-500'}>SALES</p>
-						<p className={'font-inter text-2xl'}>75%</p>
+						<p className={'font-inter text-2xl font-bold'}>75%</p>
 					</div>
 					<div className={'flex space-x-2'}>
 						<p className={'text-sm font-inter text-slate-500 ml-auto'}>Last 7 days</p>

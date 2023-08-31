@@ -2,6 +2,7 @@ import Header from '../components/header'
 import Dashboard from '../components/dashboard'
 import Body1 from "@/components/body1"
 import Body2 from "@/components/body2"
+import Body3 from "@/components/body3"
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,6 +14,7 @@ export default function Home() {
               <Dashboard/>
               <Body1/>
               <Body2/>
+              <Body3/>
           </div>
       </main>
   )

@@ -29,6 +29,18 @@ const config: Config = {
         facebookBlue: '#1877f2',
         twitterBlue: '#1da1f2',
         shoppingGreen: '#2fb344'
+      },
+      spacing: {
+        88: '22rem',
+        90.5: '22.625rem',
+        92: '23rem',
+        100: '25rem',
+        108: '27rem',
+        122: '30.5rem',
+        128: '32rem',
+        136: '34rem',
+        138: '34.5rem',
+        140: '35rem'
       }
     },
   },
